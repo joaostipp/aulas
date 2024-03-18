@@ -24,16 +24,15 @@ Nome: João Victor                               nº:11       Turma:3J
                 cntxt.font = "30px Comic Sans MS";
                 cntxt.fillStyle = grad;
                 primo(cntxt, N1, x, y);
+                }
             }
-            }
-
-            function primo(cntxt,N1, x, y) {
+            function primo(cntxt, N1, x, y) {
                 let contador = 3;
                 let line = N1 + " ";
                 console.log("O  numero digitado foi " + line);
                 let resposta = "é primo!";
                 console.log("o valor dentro de resposta é: " + resposta);
-                if(parseInt(N1) < 2 || (parseInt(N1)%2 == 0 && parseInt(N1) !=2)) {
+                if(parseInt(N1) < 2 || (parseInt(N1)%2 == 0 && parseInt(N1) != 2)) {
                     resposta = "não é primo";
                 }
                 else{
